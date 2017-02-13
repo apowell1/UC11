@@ -68,9 +68,10 @@ function factorial(n) {
  * @param {number} k The number of items to be selected
  * @returns {number} nCk
  */
+// n = 5 and k = 3
 function combinations(n, k) {
     var c;
-    c = factorial(n) * factorial(k) * (factorial(n - k));
+    c = factorial(n) / factorial(k) / (factorial(n - k));
     return c;
 }
 /**
