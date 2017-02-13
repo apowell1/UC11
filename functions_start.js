@@ -71,8 +71,8 @@ function factorial(n) {
 function combinations(n, k) {
     var c;
     if (k <= n) {
-        c = factorial(n) / (factorial(k) * (factorial(n - k)));
-        return c;
+    c = factorial(n) / (factorial(k) * (factorial(n - k)));
+    return c;
     }
 }
 /**
